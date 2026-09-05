@@ -1,2 +1,9 @@
+# Crawling permis intenționat: paginile trimit "noindex" prin meta robots,
+# iar motoarele de căutare trebuie să poată intra ca să citească instrucțiunea.
+# Un "Disallow" le-ar bloca accesul și n-ar mai afla niciodată că nu au voie
+# să indexeze, ceea ce ar permite apariția URL-ului gol în rezultate.
 User-agent: *
-Disallow: /
+Allow: /
+
+# Documentație internă, fără meta robots pentru că nu e HTML.
+Disallow: /README.md
