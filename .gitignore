@@ -2,3 +2,6 @@
 *.log
 Thumbs.db
 .DS_Store
+dist/
+.wrangler/
+node_modules/
